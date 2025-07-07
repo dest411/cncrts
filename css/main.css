@@ -7,8 +7,6 @@
 body {
   font-family: 'Inter Tight';
   font-weight: 500;
-  background: url('../img/bg.svg') no-repeat center center;
-  background-size: cover;
   color: #E4E4D6;
   overflow-x: hidden;
   
