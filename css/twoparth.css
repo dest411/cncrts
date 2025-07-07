@@ -61,7 +61,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 50px   ;
 }
 
 .jazz{
@@ -90,7 +90,8 @@
 .date-time img:nth-of-type(2){
     margin-left: 20px;
 }
-.get-ticket{
+.get-ticket,
+.get-ticket1{
     width: 250px;
     height: 100%;
     display: flex;
@@ -101,7 +102,8 @@
     padding:10px 10px 10px 30px;
     border-radius: 50px;
 }
-.get-ticket h6{
+.get-ticket h6,
+.get-ticket1 h6{
     font-size: 16px;
     font-weight: 500;
     background-color: black;
@@ -116,4 +118,21 @@
     padding: 27px;
     border: 2px solid black;
     border-radius: 50%;
+}
+.get-ticket1{
+    margin-left: 25px;
+}
+.btn-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    gap: 20px;
+    font-size: 16px;
+    padding: 17px 25px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 270px;
 }
